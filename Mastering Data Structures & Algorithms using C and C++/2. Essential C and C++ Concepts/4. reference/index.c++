@@ -6,6 +6,5 @@ int main(){
     cout<<a;
     r++;
     cout<<a;
-    cout<<"HI";
     return 0;
 }

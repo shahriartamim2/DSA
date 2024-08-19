@@ -1,8 +1,8 @@
 #include<stdio.h>
 
 
-pointer parameter
-afeect actual values
+// pointer parameter
+// afeect actual values
 
 
 int swap(int *a, int *b){
