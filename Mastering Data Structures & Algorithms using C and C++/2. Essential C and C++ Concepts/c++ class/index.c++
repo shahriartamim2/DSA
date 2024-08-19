@@ -30,6 +30,7 @@ int main(){
     int area;
     area = r.area();
     cout<<area;
+    cout<<endl;
     r.changeLength(15);
     cout<<r.area() ;
     r.swapValues();
