@@ -33,6 +33,7 @@ int main(){
     cout<<endl;
     r.changeLength(15);
     cout<<r.area() ;
+    cout<<endl;
     r.swapValues();
     return 0;
 
