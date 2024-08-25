@@ -1,0 +1,1 @@
+ std::cout<<"Ascending output"<<x<<std::endl;  
