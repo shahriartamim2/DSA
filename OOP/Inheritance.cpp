@@ -7,11 +7,20 @@ public:
     string name;
     int age;
     
+    Person(string name,int age){
+        this->name = name;
+        this->age = age;
+        cout<<"this is from teacher constructor"<<endl;
+    }
 };
 class Student : public Person{
 public: 
     int roll;
 
+    Student(string name, int age, int roll) : Person(name, age){
+        this->roll = roll;
+        cout<<"this is from student constructor";
+    }
     void getInfo(){
         cout<<"Name:"<< name <<endl;
         cout<<"Age:"<< age <<endl;
@@ -20,11 +29,6 @@ public:
 }
 ;
 int main(){
-    Student s1;
-    s1.name = "Noman";
-    s1.age = 12;
-    s1.roll = 1234;
-
+    Student s1("Noman", 12, 343);
     s1.getInfo();
-
 }
