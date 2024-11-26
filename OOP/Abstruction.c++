@@ -12,7 +12,6 @@ public:
         cout<<"This is abstruction";
     }
 };
-
 int main(){
     Circle c1;
     c1.draw();
